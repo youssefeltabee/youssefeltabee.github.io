@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Youssef Eltabee — Data Scientist & ML Engineer</title>
+<meta name="description" content="Portfolio of Youssef Eltabee — Data Scientist, ML Engineer, SAP Certified. Python, scikit-learn, XGBoost, FastAPI, Streamlit.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0a0f;--surface:#14141f;--card:#1a1a2e;--border:#2a2a3e;--accent:#6c63ff;--accent2:#00d4aa;--text:#e0e0f0;--muted:#8888a0;--radius:12px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Inter,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:var(--accent2);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:1100px;margin:0 auto;padding:0 24px}
+header{text-align:center;padding:80px 0 60px}
+header h1{font-size:3rem;font-weight:800;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+header .subtitle{font-size:1.2rem;color:var(--muted);margin-top:12px}
+header .tagline{font-size:0.95rem;color:var(--muted);margin-top:8px;max-width:600px;margin-left:auto;margin-right:auto}
+.quick-links{display:flex;gap:16px;justify-content:center;margin-top:24px;flex-wrap:wrap}
+.quick-links a{padding:10px 24px;border-radius:8px;font-weight:600;font-size:0.9rem;transition:all .2s}
+.quick-links .primary{background:var(--accent);color:#fff}
+.quick-links .primary:hover{background:#7b73ff;text-decoration:none}
+.quick-links .secondary{border:1px solid var(--border);color:var(--text)}
+.quick-links .secondary:hover{border-color:var(--accent);text-decoration:none}
+section{padding:60px 0}
+section h2{font-size:1.8rem;font-weight:700;margin-bottom:8px}
+section .section-desc{color:var(--muted);margin-bottom:36px;font-size:1rem}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.about-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:28px}
+.about-card h3{font-size:1.1rem;font-weight:600;margin-bottom:12px;color:var(--accent2)}
+.about-card p{color:var(--muted);font-size:0.92rem;line-height:1.7}
+.skills-wrap{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.skill-tag{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:4px 12px;font-size:0.82rem;color:var(--text)}
+.project-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.project-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:24px;transition:border-color .2s,transform .2s}
+.project-card:hover{border-color:var(--accent);transform:translateY(-2px)}
+.project-card h3{font-size:1rem;font-weight:600;margin-bottom:6px}
+.project-card .tech{font-size:0.78rem;color:var(--accent2);margin-bottom:8px}
+.project-card p{font-size:0.88rem;color:var(--muted);line-height:1.6;margin-bottom:12px}
+.project-card .links{display:flex;gap:12px;font-size:0.85rem}
+.cert-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
+.cert-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px;text-align:center}
+.cert-card h4{font-size:0.9rem;font-weight:600;margin-bottom:4px}
+.cert-card p{font-size:0.8rem;color:var(--muted)}
+footer{text-align:center;padding:40px 0;color:var(--muted);font-size:0.85rem;border-top:1px solid var(--border);margin-top:20px}
+@media(max-width:768px){
+header h1{font-size:2rem}
+.about-grid,.project-grid,.cert-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+<h1>Youssef Eltabee</h1>
+<div class="subtitle">Data Scientist & ML Engineer</div>
+<div class="tagline">B.Sc. Mechatronics, GUC &bull; Python &bull; scikit-learn &bull; XGBoost &bull; FastAPI &bull; Streamlit &bull; SAP C_AIG + C_IEE2E</div>
+<div class="quick-links">
+<a href="https://github.com/youssefeltabee" class="primary" target="_blank">GitHub Profile</a>
+<a href="#projects" class="secondary">View Projects</a>
+<a href="#certifications" class="secondary">Certifications</a>
+</div>
+</header>
+
+<section id="about">
+<h2>About</h2>
+<div class="section-desc">Data Scientist with proven delivery in production ML</div>
+<div class="about-grid">
+<div class="about-card">
+<h3>Experience</h3>
+<p><strong>Data Scientist</strong> &mdash; Beltone Financial (Contract)<br>
+Built RAG pipelines for document Q&A over financial reports. Developed NLP classifiers for text categorization. Time-series EDA on financial data with automated reporting.</p>
+<p style="margin-top:12px"><strong>Quality Engineer</strong> &mdash; Beltone Financial<br>
+Automated test suites with Selenium WebDriver, reducing regression cycles by 60%. Maintained CI/CD integration for QA pipelines.</p>
+</div>
+<div class="about-card">
+<h3>Core Skills</h3>
+<div class="skills-wrap">
+<span class="skill-tag">Python</span>
+<span class="skill-tag">SQL</span>
+<span class="skill-tag">scikit-learn</span>
+<span class="skill-tag">XGBoost</span>
+<span class="skill-tag">PyTorch</span>
+<span class="skill-tag">SHAP</span>
+<span class="skill-tag">LangChain</span>
+<span class="skill-tag">FastAPI</span>
+<span class="skill-tag">Streamlit</span>
+<span class="skill-tag">Docker</span>
+<span class="skill-tag">Git</span>
+<span class="skill-tag">Pandas</span>
+<span class="skill-tag">Plotly</span>
+<span class="skill-tag">Polars</span>
+<span class="skill-tag">Dash</span>
+<span class="skill-tag">Selenium</span>
+<span class="skill-tag">SAP S/4HANA</span>
+</div>
+</div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="section-desc">Production-grade ML systems, interactive dashboards, and deploy-ready applications</div>
+
+<h3 style="font-size:1.2rem;font-weight:600;margin-bottom:16px;color:var(--accent2)">Machine Learning &amp; AI</h3>
+<div class="project-grid">
+
+<div class="project-card">
+<h3>Customer Churn Engine</h3>
+<div class="tech">FastAPI &bull; Streamlit &bull; Random Forest &bull; Docker</div>
+<p>End-to-end customer churn prediction system with FastAPI serving layer, Streamlit dashboard for interactive exploration, and Docker containerization. Deployed with model persistence and real-time inference.</p>
+<div class="links"><a href="https://github.com/youssefeltabee/customer-churn-engine" target="_blank">GitHub</a></div>
+</div>
+
+<div class="project-card">
+<h3>Payment Fraud Detector</h3>
+<div class="tech">XGBoost &bull; Isolation Forest &bull; Autoencoder &bull; SHAP &bull; Streamlit</div>
+<p>Multi-method fraud detection comparing XGBoost, Isolation Forest, and Autoencoder approaches. Includes SHAP explainability analysis for model interpretability and a Streamlit dashboard for results exploration.</p>
+<div class="links"><a href="https://github.com/youssefeltabee/payment-fraud-detector" target="_blank">GitHub</a></div>
+</div>
+
+<div class="project-card">
+<h3>Loan Risk Assessor</h3>
+<div class="tech">XGBoost &bull; SHAP &bull; Streamlit &bull; Pandas</div>
+<p>ML-powered credit risk assessment with 0.923 AUC. Includes SHAP explainability for transparent lending decisions, EDA notebooks, and an interactive Streamlit dashboard for scenario testing.</p>
+<div class="links"><a href="https://github.com/youssefeltabee/loan-risk-assessor" target="_blank">GitHub</a></div>
+</div>
+
+<div class="project-card">
+<h3>Property Price Estimator</h3>
+<div class="tech">Regression &bull; Scikit-learn &bull; Feature Engineering</div>
+<p>King County house price prediction using multiple regression models with feature engineering, log transformations, and spatial analysis. Comparative evaluation across Linear, Ridge, and tree-based models.</p>
+<div class="links"><a href="https://github.com/youssefeltabee/property-price-estimator" target="_blank">GitHub</a></div>
+</div>
+
+<div class="project-card">
+<h3>Healthcare Cost Model</h3>
+<div class="tech">ML Pipeline &bull; Scikit-learn &bull; R&sup2;=0.78</div>
+<p>End-to-end machine learning pipeline predicting individual medical insurance costs. Covers data cleaning, encoding, feature selection, model training, and evaluation achieving R&sup2; of 0.78.</p>
+<div class="links"><a href="https://github.com/youssefeltabee/healthcare-cost-model" target="_blank">GitHub</a></div>
+</div>
+
+<div class="project-card">
+<h3>Falcon 9 Landing Predictor</h3>
+<div class="tech">Classification &bull; Data Collection &bull; IBM Capstone</div>
+<p>SpaceX Falcon 9 first-stage landing prediction as part of the IBM Data Science Professional Certificate. Covers data wrangling from APIs, SQL querying, interactive visualizations, and predictive modeling.</p>
+<div class="links"><a href="https://github.com/youssefeltabee/falcon9-landing-predictor" target="_blank">GitHub</a></div>
+</div>
+
+<div class="project-card">
+<h3>World Cup Predictor</h3>
+<div class="tech">Classification &bull; Feature Engineering &bull; Notebook</div>
+<p>Predicting FIFA World Cup match outcomes using historical data, team performance metrics, and classification models. Feature engineering from tournament statistics.</p>
+<div class="links"><a href="https://github.com/youssefeltabee/worldcup-predictor" target="_blank">GitHub</a></div>
+</div>
+
+<div class="project-card">
+<h3>Ford Car Price Predictor</h3>
+<div class="tech">Regression &bull; Scikit-learn &bull; Data Cleaning</div>
+<p>Ford car price prediction model trained on UK used car listings. Covers data cleaning, categorical encoding, feature selection, and regression modeling pipeline.</p>
+<div class="links"><a href="https://github.com/youssefeltabee/ford-car-price-predictor" target="_blank">GitHub</a></div>
+</div>
+
+</div>
+
+<h3 style="font-size:1.2rem;font-weight:600;margin:32px 0 16px;color:var(--accent2)">Dashboards &amp; BI</h3>
+<div class="project-grid">
+
+<div class="project-card">
+<h3>Interactive Analytics Hub</h3>
+<div class="tech">Streamlit &bull; 8 Dashboards &bull; Cloud Deployed</div>
+<p>A collection of 8 interactive analytics dashboards deployed on Streamlit Cloud. Covering diverse domains including finance, operations, and environmental data with consistent design patterns.</p>
+<div class="links"><a href="https://github.com/youssefeltabee/interactive-analytics-hub" target="_blank">GitHub</a></div>
+</div>
+
+<div class="project-card">
+<h3>Flight Operations Analytics</h3>
+<div class="tech">Dash &bull; Plotly &bull; Real-time Filtering</div>
+<p>Interactive airline performance dashboard built with Dash and Plotly, featuring real-time filtering, route analytics, delay pattern analysis, and performance KPIs across carriers and airports.</p>
+<div class="links"><a href="https://github.com/youssefeltabee/flight-operations-analytics" target="_blank">GitHub</a></div>
+</div>
+
+<div class="project-card">
+<h3>Australian Environment Insights</h3>
+<div class="tech">Dash &bull; Plotly &bull; ML Notebooks</div>
+<p>Australian wildfire data dashboard combined with rainfall prediction ML notebooks. Visualizes environmental trends with interactive time-series and geospatial components.</p>
+<div class="links"><a href="https://github.com/youssefeltabee/australian-environment-insights" target="_blank">GitHub</a></div>
+</div>
+
+<div class="project-card">
+<h3>Airline Perf Dashboard</h3>
+<div class="tech">Streamlit &bull; Plotly &bull; Pandas</div>
+<p>Airline performance analytics dashboard with interactive filtering, delay analysis, route performance metrics, and carrier comparison views built with Streamlit and Plotly.</p>
+<div class="links"><a href="https://github.com/youssefeltabee/airline-perf-dashboard" target="_blank">GitHub</a></div>
+</div>
+
+</div>
+
+<h3 style="font-size:1.2rem;font-weight:600;margin:32px 0 16px;color:var(--accent2)">Full-Stack &amp; Platforms</h3>
+<div class="project-grid">
+
+<div class="project-card">
+<h3>Wujood</h3>
+<div class="tech">Next.js 16 &bull; Prisma &bull; TypeScript &bull; AI Integration</div>
+<p>AI-powered digital presence platform for Egyptian SMEs. Features include Ghost Audit, website builder, WhatsApp CRM integration, social media management, catalog management, and review system. Built with Next.js 16 and Prisma ORM.</p>
+<div class="links"><a href="https://github.com/youssefeltabee/wujood" target="_blank">GitHub</a></div>
+</div>
+
+</div>
+</section>
+
+<section id="certifications">
+<h2>Certifications</h2>
+<div class="section-desc">SAP-certified with DeepLearning.AI and IBM credentials</div>
+<div class="cert-grid">
+<div class="cert-card">
+<h4>SAP C_AIG</h4>
+<p>SAP Certified Associate &mdash; AI &amp; ML, SAP BTP</p>
+</div>
+<div class="cert-card">
+<h4>SAP C_IEE2E</h4>
+<p>SAP Certified Associate &mdash; End-to-End Business Processes</p>
+</div>
+<div class="cert-card">
+<h4>DeepLearning.AI ML</h4>
+<p>Machine Learning Specialization &mdash; Andrew Ng</p>
+</div>
+<div class="cert-card">
+<h4>IBM Data Science</h4>
+<p>IBM Data Science Professional Certificate</p>
+</div>
+</div>
+</section>
+
+<footer>
+<p>Youssef Eltabee &bull; <a href="mailto:youssefeltabee@gmail.com">youssefeltabee@gmail.com</a> &bull; <a href="https://github.com/youssefeltabee" target="_blank">github.com/youssefeltabee</a></p>
+</footer>
+
+</div>
+</body>
+</html>
